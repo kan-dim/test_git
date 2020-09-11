@@ -4,7 +4,7 @@ class Main {
 
         Scanner scanner = new Scanner(System.in);
         String city = scanner.next();
-        boolean end = city.endsWith("burg");
+        boolean end = city.endsWith("burger");
         System.out.println(end);
     }
 }
